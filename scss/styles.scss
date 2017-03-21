@@ -37,8 +37,8 @@ $base-color: #003EFF;
 $base-color-hover: darken($base-color, 15%);
 
 /* Define background colors*/
-$background: #ECECEC;
-$background-alt: #F5F5F0;
+$background: #FFE;
+$background-alt: #F0F0F2;
 
 /* Define border colors*/
 $border: #D8D2D2;
@@ -642,12 +642,17 @@ footer {
     }
 
     p, ul {
-        margin: 0;
         color: $text;
         font-size: 0.9em;
     }
 
+    p {
+    	margin: 0;
+    }
+
     ul {
+    	margin-top: 0;
+    	margin-bottom: 0;
         padding: 0 0 0 15px;
     }
 }
